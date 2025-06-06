@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+canvas {
+  box-shadow: 0 2px 16px #0001;
+  margin: 16px 0;
+  transition: box-shadow 0.2s;
+}
+canvas:active {
+  box-shadow: 0 4px 24px #0002;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  color: #1976d2;
+}
+
+b {
+  color: #222;
+}
+
+/* Remove default Vite/React logo styles */
+.logo, .logo.react, .card, .read-the-docs {
+  display: none !important;
+}
